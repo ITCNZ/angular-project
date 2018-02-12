@@ -30,9 +30,8 @@ Run `ng github-pages:deploy` to deploy to GitHub Pages.
 
 To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-##项目结构以及说明
+## 项目结构以及说明
 
-项目功能点包括:
 1.创建项目结构;
 
 2.src/util 这主要为项目配置文件夹。
