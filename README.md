@@ -2,6 +2,27 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
+## 项目结构以及说明
+
+1.创建项目结构;
+
+2.src/util 这主要为项目配置文件夹。
+目前包括本地环境监测util.config.ts;
+远程API请求的封装
+
+3.src/common/components 公共组件库
+例如:src/common/components/model 为一个模态框组件
+
+4.src/api  主要存放每个模块的请求api接口。
+例如:api.user.ts 则为用户模块的接口
+
+5.angular UI库的添加
+本案例使用material UI库进行演示开发
+
+6.基本路由的配置,将公共路由提出到router.ts文件
+
+7.静态公共资源库src/assets
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -29,24 +50,3 @@ Run `ng github-pages:deploy` to deploy to GitHub Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-## 项目结构以及说明
-
-1.创建项目结构;
-
-2.src/util 这主要为项目配置文件夹。
-目前包括本地环境监测util.config.ts;
-远程API请求的封装
-
-3.src/common/components 公共组件库
-例如:src/common/components/model 为一个模态框组件
-
-4.src/api  主要存放每个模块的请求api接口。
-例如:api.user.ts 则为用户模块的接口
-
-5.angular UI库的添加
-本案例使用material UI库进行演示开发
-
-6.基本路由的配置,将公共路由提出到router.ts文件
-
-7.静态公共资源库src/assets
