@@ -1,0 +1,16 @@
+<div class="model-dialog" [@signal]="animateMask">
+  <div class="model-mask" *ngIf="isMask" (click)="closeFn()"></div>
+  <div class="model-inner" [ngClass]="[dir, size]" [@signal]="animateModel">
+    <div class="model-header" *ngIf="isHeader">
+      <span>{{modelTit}}</span>
+      <span class="close" (click)="closeFn()">×</span>
+    </div>
+    <div class="model-body">
+      <ng-content></ng-content>
+    </div>
+    <div class="model-footer" *ngIf="isFooter">
+      <button mat-raised-button color="primary" (click)="confirm()">确定</button>
+      <button mat-raised-button (click)="cancel()">取消</button>
+    </div>
+  </div>
+</div>

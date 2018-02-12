@@ -1,0 +1,61 @@
+<div>
+  <h1>{{title}}</h1>
+
+  <!--调用model基本组件-->
+  <component-model #model1
+                   (confirmFn)="confirmFn1()"
+                   (cancelFn)="cancelFn1()">
+    <div>这是body部分的内容</div>
+  </component-model>
+
+  <!--调用model修饰后组件 dir-top-->
+  <component-model #model2
+                   [modelTit]="'提交成功!'"
+                   [dir]="'dir-top'"
+                   [isMask]="false"
+                   [isFooter]="false"
+                   [size]="'size-full'"
+                   (confirmFn)="confirmFn2()"
+                   (cancelFn)="cancelFn2()">
+  </component-model>
+
+  <!--调用model修饰后组件 dir-bot-->
+  <component-model #model3
+                   [modelTit]="'我是一个标题'"
+                   [dir]="'dir-bot'"
+                   [isMask]="false"
+                   [size]="'size-full'"
+                   (confirmFn)="confirmFn3()"
+                   (cancelFn)="cancelFn3()">
+    <div>这是body部分的内容</div>
+  </component-model>
+
+  <button mat-raised-button (click)="openFn1()">弹框组件1</button>
+  <button mat-raised-button (click)="openFn2()">弹框组件2</button>
+  <button mat-raised-button (click)="openFn3()">弹框组件3</button>
+
+  <div class="example-container">
+    <mat-form-field>
+      <input matInput placeholder="Input">
+    </mat-form-field>
+
+    <mat-form-field>
+      <textarea matInput placeholder="Textarea"></textarea>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-select placeholder="Select">
+        <mat-option value="option">Option</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <ul class="heros">
+    <li *ngFor="let hero of heroes">
+      <img src="{{hero.picture}}" alt="{{hero.name}}">
+      <p class="name">{{hero.name}}</p>
+      <span class="name">{{hero.introduce}}</span>
+    </li>
+  </ul>
+
+</div>
