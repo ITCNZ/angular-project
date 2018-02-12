@@ -26,6 +26,9 @@
 ## npm install
 启动项目前,请确保安装了npm包。
 
+因为该依赖是最新的,所以如果包安装不对,可能会报错,一般情况下执行命令即刻解决:
+npm install @angular/common@latest @angular/compiler@latest @angular/compiler-cli@latest @angular/core@latest @angular/forms@latest @angular/http@latest @angular/platform-browser@latest @angular/platform-browser-dynamic@latest @angular/platform-server@latest @angular/router@latest @angular/animations@latest typescript@latest --save
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
