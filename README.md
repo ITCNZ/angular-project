@@ -1,6 +1,6 @@
-# MyAngular
+# angular-project
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+该项目是以angular-cli为基础开发的。 [angular-cli](https://github.com/angular/angular-cli) version 2.0.0-beta.28.3.
 
 ## 项目结构以及说明
 
@@ -23,6 +23,9 @@ This project was generated with [angular-cli](https://github.com/angular/angular
 
 7.静态公共资源库src/assets
 
+## npm install
+启动项目前,请确保安装了npm包。
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -42,11 +45,3 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
-
-## Deploying to GitHub Pages
-
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
