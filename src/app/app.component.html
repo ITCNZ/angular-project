@@ -1,8 +1,7 @@
-<h1>
-  {{title}}
-  <nav>
-    <a routerLink="/home">这是首页</a>
-    <a routerLink="/about">这是关于页</a>
-  </nav>
-  <router-outlet></router-outlet>
-</h1>
+<h1>{{title}}</h1>
+<nav>
+  <a routerLink="/home" routerLinkActive="router-active">这是首页</a>
+  <a routerLink="/about/1" routerLinkActive="router-active">这是关于页</a>
+</nav>
+<router-outlet></router-outlet>
+

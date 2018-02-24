@@ -10,6 +10,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { ChildComponent } from './child/child.component';
+import { Child2Component } from './child2/child2.component';
 import { appRoutes } from './router';
 import { UtilNet } from '../util/util.net';
 import { UtilConfig } from '../util/util.config';
@@ -25,6 +27,8 @@ import { ComponentModel } from '../common/components/model/component.model';
     HomeComponent,
     AboutComponent,
     NotfoundComponent,
+    ChildComponent,
+    Child2Component,
     ComponentModel
   ],
   imports: [

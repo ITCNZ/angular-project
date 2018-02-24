@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app works HAHA!';
+  title = '这是一个angular开发测试页面!';
   // constructor(private http: HttpModule) {}
 
   // search(term: string) {
