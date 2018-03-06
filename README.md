@@ -1,6 +1,7 @@
 # angular-project
 
 该项目是以angular-cli为基础开发的。 [angular-cli](https://github.com/angular/angular-cli) version 2.0.0-beta.28.3.
+
 NODE版本最好小于node: "<8.0.0"
 
 ## 项目结构以及说明
