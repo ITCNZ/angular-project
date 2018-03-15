@@ -6,24 +6,24 @@
 
 ## 项目结构以及说明
 
-> 1.创建项目结构;
+> 创建项目结构;
 
-> 2.src/util 这主要为项目配置文件夹。
+> src/util 这主要为项目配置文件夹。
 目前包括本地环境监测util.config.ts;
 远程API请求的封装
 
-> 3.src/common/components 公共组件库
+> src/common/components 公共组件库
 例如:src/common/components/model 为一个模态框组件
 
-> 4.src/api  主要存放每个模块的请求api接口。
+> src/api  主要存放每个模块的请求api接口。
 例如:api.user.ts 则为用户模块的接口
 
-> 5.angular UI库的添加
+> angular UI库的添加
 本案例使用material UI库进行演示开发
 
-> 6.基本路由的配置,将公共路由提出到router.ts文件
+> 基本路由的配置,将公共路由提出到router.ts文件
 
-> 7.静态公共资源库src/assets
+> 静态公共资源库src/assets
 
 ## npm install
 > 启动项目前,请确保安装了npm包。
